@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Team Open</title>
+    <link>https://teamopen.org/post/</link>
+    <description>Recent content in Blog on Team Open</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Sep 2019 14:39:57 +0200</lastBuildDate>
+    
+	<atom:link href="https://teamopen.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project Lifeguard open for ideas</title>
+      <link>https://teamopen.org/post/2019-project-lifeguard-open-for-ideas/</link>
+      <pubDate>Mon, 16 Sep 2019 14:39:57 +0200</pubDate>
+      
+      <guid>https://teamopen.org/post/2019-project-lifeguard-open-for-ideas/</guid>
+      <description>Here&amp;rsquo;s a page, with stuff and things.</description>
+    </item>
+    
+  </channel>
+</rss>
