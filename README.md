@@ -1,3 +1,4 @@
+[![Build Status](https://cloud.drone.io/api/badges/teamopen-dev/website-org/status.svg)](https://cloud.drone.io/teamopen-dev/website-org)
 [![Content license CC BY-SA 4.0](https://badgen.net/badge/Content%20license/CC%20BY-SA%204.0)](LICENSE.md)
 [![Code license BlueOak-1.0.0](https://badgen.net/badge/Code%20license/BlueOak-1.0.0)](LICENSE.md)
 
