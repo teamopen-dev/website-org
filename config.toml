@@ -1,0 +1,25 @@
+baseURL = "https://teamopen.org/"
+languageCode = "en-us"
+title = "Team Open"
+theme = ["ananke"]
+
+# Language settings
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Theme setup
+SectionPagesMenu = "main"
+Paginate = 9
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[params]
+cover_dimming_class = "bg-black-30"
+background_color_class = "bg-teamopen"
+github = "https://github.com/teamopen-dev"
+recent_posts_number = 3
+mainSections = ["post", "blog"]
+custom_css = ["css/custom.css"]
