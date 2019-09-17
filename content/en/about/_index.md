@@ -44,6 +44,6 @@ These exist, so while Team Open will likely have a good
 amount of people to have in depth discussions with,
 the primary goal is around moving into action.
 
-I would encourage you to check out:
+We encourage you to check out:
 
 [SFOSC](https://sfosc.org) and [SustainOSS](https://sustainoss.org)
