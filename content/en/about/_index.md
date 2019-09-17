@@ -14,7 +14,7 @@ contact us! The details are on the [community page](/community).
 
 ## Why?
 
-![The truth behind Open Source apps](/images/commitstrip-truthoss.png)
+![The truth behind Open Source apps](/images/commitstrip-truthoss.jpg)
 _&copy; 2014 [CommitStrip.com](https://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps)_
 
 Many open source projects do not receive the broad
