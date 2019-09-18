@@ -1,3 +1,7 @@
 .bg-teamopen {
 	background-color:#709781;
 }
+.bg-gradient-dropshadow {
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 22%, rgba(0,0,0,0.75) 75%, rgba(0,0,0,0) 100%);
+    text-shadow: 2px 1px 1px black;
+}

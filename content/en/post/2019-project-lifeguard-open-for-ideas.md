@@ -2,6 +2,7 @@
 title: Project Lifeguard open for ideas
 date: 2019-09-16T14:39:57+02:00
 featured_image: /images/no-lifeguard-on-duty-antonia-felipe.jpg
+title_dimming_class: bg-gradient-dropshadow
 description: Giving drowning maintainers an escape.
 author: Robin van Boven ([@Beanow](https://github.com/beanow))
 ---
