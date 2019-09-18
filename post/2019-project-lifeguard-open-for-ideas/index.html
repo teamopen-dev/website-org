@@ -28,25 +28,25 @@
     
 
     <meta property="og:title" content="Project Lifeguard open for ideas" />
-<meta property="og:description" content="About this post and stuff" />
+<meta property="og:description" content="Giving drowning maintainers an escape." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://teamopen.org/post/2019-project-lifeguard-open-for-ideas/" />
 <meta property="article:published_time" content="2019-09-16T14:39:57+02:00" />
 <meta property="article:modified_time" content="2019-09-16T14:39:57+02:00" />
 <meta itemprop="name" content="Project Lifeguard open for ideas">
-<meta itemprop="description" content="About this post and stuff">
+<meta itemprop="description" content="Giving drowning maintainers an escape.">
 
 
 <meta itemprop="datePublished" content="2019-09-16T14:39:57&#43;02:00" />
 <meta itemprop="dateModified" content="2019-09-16T14:39:57&#43;02:00" />
-<meta itemprop="wordCount" content="7">
+<meta itemprop="wordCount" content="302">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project Lifeguard open for ideas"/>
-<meta name="twitter:description" content="About this post and stuff"/>
+<meta name="twitter:description" content="Giving drowning maintainers an escape."/>
 
   </head>
 
@@ -56,8 +56,10 @@
    
   
 
-  <header>
-    <div class="bg-teamopen">
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://teamopen.org/images/no-lifeguard-on-duty-antonia-felipe.jpg');">
+    <div class="pb1-m pb3-l bg-black-30">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://teamopen.org/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -115,6 +117,16 @@
   </div>
 </nav>
 
+      <div class="tc-l pv5 ph2 ph2-ns bg-gradient-dropshadow">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project Lifeguard open for ideas</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Giving drowning maintainers an escape.
+            </h2>
+          
+        
+      </div>
     </div>
   </header>
 
@@ -131,13 +143,77 @@
         BLOG
       </p>
       <h1 class="f1 athelas mb1">Project Lifeguard open for ideas</h1>
+      <p class="tracked">
+        By <b>Robin van Boven (<a href="https://github.com/beanow">@Beanow</a>)</b>
+      </p>
       
       <time class="f6 mv4 dib tracked" datetime="2019-09-16T14:39:57&#43;02:00">September 16, 2019</time>
       
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Here&rsquo;s a page, with stuff and things.</p>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<p><sub><em>Photo by <a href="https://unsplash.com/@a_mfelipe">Antônia Felipe</a>.</em></sub></p>
+
+<p>You may have
+<a href="https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/">heard</a>,
+<a href="https://www.youtube.com/watch?v=0t85TyH-h04">this</a>,
+<a href="https://github.com/notify-rs/notify/issues/209">before</a>.
+Many maintainers working on OSS people depend upon are under
+a lot of stress, responding to people&rsquo;s wants and needs, while doing
+their best not to set the world on fire with breaking changes or security
+vulnerabilities.</p>
+
+<p><img src="/images/all-your-upstream.png" alt="Your packages depend on mine. All of them." /></p>
+
+<p>It&rsquo;s impressive how much great software is built this way,
+but in the same breath, people have been pushing on to the
+point where having <strong>one or two episodes of burnout became normal</strong>.</p>
+
+<p>But what options are there for maintainers?
+They may have realized it&rsquo;s causing them grief, but
+posting an abandonment notice and hoping for the best&hellip;?
+That seems like a last resort and something you could
+feel quite guilty about doing.</p>
+
+<h2 id="project-lifeguard">Project Lifeguard</h2>
+
+<p>What I feel is missing here, is a responsible way to leave your
+maintainer position. <strong>Giving <em>drowning maintainers</em> an escape.</strong></p>
+
+<p><img src="/images/life-buoy-jametlene-reskp.jpg" alt="Life buoy" />
+<sub><em>Photo by <a href="https://unsplash.com/@reskp">Jametlene Reskp</a>.</em></sub></p>
+
+<p>The working idea I have now, is to be a group you can hand off
+maintenance to which will offer:</p>
+
+<ol>
+<li>Emergency bug and security fixes, by developers we find and pay?</li>
+<li>A standard message asking for new maintainers and sponsors.</li>
+<li>A long-term plan, to deprecate and archive if needed.</li>
+</ol>
+
+<p>For sponsorships, in particular I think it would be good to look for businesses
+that are using the software and derive value from it.</p>
+
+<p>The standard message, could be used to <em>make risk a lot clearer</em>
+for people using the software. Similar to an <code>npm audit</code>.
+Or the sustainability information <a href="https://writing.kemitchell.com/2019/04/12/package-json-sustainability.html">proposed here</a>.
+I&rsquo;m imagining an output such as:</p>
+
+<pre><code>$ npm install
+...
+4 packages have been abandoned.
+12 packages are receiving emergency maintenance.
+Learn what you can do: https://lifeguard.teamopen.dev
+Show the package list with: npx lifeguard
+</code></pre>
+
+<h3 id="just-an-idea">Just an idea</h3>
+
+<p>For now this is an idea. If you&rsquo;re interested in helping,
+<a href="/community">get in touch</a> and share your thoughts.</p>
 <ul class="pa0">
   
 </ul>
