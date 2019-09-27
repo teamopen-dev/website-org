@@ -23,6 +23,7 @@ t=${TARGET_PATH:-"/workgroups"}
 toplevel="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
 out="${toplevel}/content/en${t}"
 
+mkdir -p $out
 rm -rf ${out}/*
 pageString $s $t "README.md" > "${out}/_index.md"
 pageString $s $t "ABOUT.md" > "${out}/about.md"
