@@ -39,27 +39,25 @@ git submodule update --init --recursive || exit 1
 # Force checkout the remote public branch (detached).
 git submodule update --init --remote --checkout public || exit 1
 
-# When the target has a SHA reference, and they're the same, skip.
-if [ -z "$FORCE_UPDATE" ] && [ ! -z "$target_sha" ] && [ "$source_sha" == "$target_sha" ]; then
-  echo "Source and last built commit are the same. No need to update."
-else
-  # Load the .git file contents into memory, as hugo's --cleanDestinationDir will break the submodule.
-  git_public_content="$(cat public/.git)"
+# Load the .git file contents into memory, as hugo's --cleanDestinationDir will break the submodule.
+git_public_content="$(cat public/.git)"
 
-  # Build the project into the submodule.
-  hugo -s . -d ./public --config config.toml --cleanDestinationDir
+# Update our workgroups content from the submodule data.
+./scripts/update-workgroups.sh
 
-  # Restore the .git file.
-  echo "$git_public_content" > public/.git
+# Build the project into the submodule.
+hugo -s . -d ./public --config config.toml --cleanDestinationDir
 
-  # Track the SHA we've built from.
-  echo "$(git rev-parse --verify HEAD)" > public/.HEAD
+# Restore the .git file.
+echo "$git_public_content" > public/.git
 
-  # Go To public folder
-  cd ./public
+# Track the SHA we've built from.
+echo "$(git rev-parse --verify HEAD)" > public/.HEAD
 
-  # Push public repo from the detached head.
-  git add --all
-  git commit -m "Rebuilding site `date`"
-  git push origin HEAD:gh-pages
-fi
+# Go To public folder
+cd ./public
+
+# Push public repo from the detached head.
+git add --all
+git commit -m "Rebuilding site `date`"
+git push origin HEAD:gh-pages
