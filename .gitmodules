@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:teamopen-dev/website-org.git
 	branch = gh-pages
+[submodule "sources/workgroups"]
+	path = sources/workgroups
+	url = https://github.com/teamopen-dev/workgroups.git
