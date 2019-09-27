@@ -36,6 +36,9 @@ fi
 # Ensure we have any required submodules.
 git submodule update --init --recursive || exit 1
 
+# For the sources we want to have the latest upstream data.
+git submodule update --init --remote sources/* || exit 1
+
 # Force checkout the remote public branch (detached).
 git submodule update --init --remote --checkout public || exit 1
 
