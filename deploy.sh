@@ -54,9 +54,6 @@ hugo -s . -d ./public --config config.toml --cleanDestinationDir
 # Restore the .git file.
 echo "$git_public_content" > public/.git
 
-# Track the SHA we've built from.
-echo "$(git rev-parse --verify HEAD)" > public/.HEAD
-
 # Go To public folder
 cd ./public
 
