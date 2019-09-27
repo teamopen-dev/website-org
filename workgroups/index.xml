@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Team Open</title>
-    <link>https://teamopen.org/</link>
-    <description>Recent content on Team Open</description>
+    <title>Workgroups on Team Open</title>
+    <link>https://teamopen.org/workgroups/</link>
+    <description>Recent content in Workgroups on Team Open</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Sep 2019 14:39:57 +0200</lastBuildDate>
     
-	<atom:link href="https://teamopen.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://teamopen.org/workgroups/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Project Lifeguard open for ideas</title>
-      <link>https://teamopen.org/post/2019-project-lifeguard-open-for-ideas/</link>
-      <pubDate>Mon, 16 Sep 2019 14:39:57 +0200</pubDate>
-      
-      <guid>https://teamopen.org/post/2019-project-lifeguard-open-for-ideas/</guid>
-      <description>Photo by Antônia Felipe.
-You may have heard, this, before. Many maintainers working on OSS people depend upon are under a lot of stress, responding to people&amp;rsquo;s wants and needs, while doing their best not to set the world on fire with breaking changes or security vulnerabilities.
-It&amp;rsquo;s impressive how much great software is built this way, but in the same breath, people have been pushing on to the point where having one or two episodes of burnout became normal.</description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>https://teamopen.org/community/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://teamopen.org/community/</guid>
-      <description>Places you can find us.
- hello@teamopen.org GitHub Discord Twitter Dev.to  Others with similar goals  Sustainable Free and Open Source Communities SustainOSS Sustain Our Software podcast Community Health Analytics Open Source Software  Send a PR if you should be here.</description>
-    </item>
     
     <item>
       <title>Workgroups</title>

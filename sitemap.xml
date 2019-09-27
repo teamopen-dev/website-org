@@ -25,4 +25,32 @@
     <loc>https://teamopen.org/community/</loc>
   </url>
   
+  <url>
+    <loc>https://teamopen.org/workgroups/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamopen.org/workgroups/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamopen.org/workgroups/wg-lifeguard-devs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamopen.org/workgroups/wg-lifeguard/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamopen.org/workgroups/wg-media/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamopen.org/workgroups/wg-organization/</loc>
+  </url>
+  
+  <url>
+    <loc>https://teamopen.org/workgroups/wg-outreach/</loc>
+  </url>
+  
 </urlset>
